@@ -22,7 +22,7 @@ A streamlined expense entry interface with instant unit search: enter the amount
 6. **Monthly & Year-to-Date Summaries** — Running totals per unit and across the portfolio for trend visibility and tax preparation
 
 ## Brand & tone
-- **Name**: TBD (to be confirmed during onboarding)
+- **Name**: PropLedger
 - **Tone**: Operational, efficient, numbers-forward — built for operators managing at scale, not casual landlords
 - **Positioning**: The fastest way to allocate expenses to the right unit and know your P&L per unit every month
 - **Brand palette**: Forest green primary (#1B4332), medium green secondary (#40916C), light-green accent (#74C69D)
