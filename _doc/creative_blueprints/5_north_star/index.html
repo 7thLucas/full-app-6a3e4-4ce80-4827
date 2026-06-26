@@ -1,0 +1,107 @@
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="flex flex-col h-full p-12 gap-5">
+
+    <!-- Header -->
+    <div>
+      <span class="text-xs font-bold tracking-widest uppercase" style="color:#40916C;">North Star Metric</span>
+      <h2 class="font-black mt-1" style="color:#1B4332;font-size:1.85rem;">Weekly Verified Operations</h2>
+      <p class="text-sm mt-1" style="color:#6B7280;">The single number this app lives by — operations actually completed by a real user, every week.</p>
+    </div>
+
+    <!-- Two-column body -->
+    <div class="flex gap-5 flex-1">
+
+      <!-- Left: Operation definition + WVO formula -->
+      <div class="flex-1 flex flex-col gap-4">
+
+        <!-- Verified operation definition -->
+        <div class="rounded-2xl p-6" style="background:#f0fdf4;border:1.5px solid #B7E4C7;">
+          <p class="text-xs font-bold uppercase tracking-wider mb-2" style="color:#1B4332;">Verified Operation</p>
+          <p class="font-bold mb-2" style="color:#1B4332;font-size:1rem;">Monthly Property Financial Close</p>
+          <p class="text-xs leading-relaxed" style="color:#374151;">
+            An owner logs income and expenses for one property for one calendar month and the app produces the profit/loss result. One close = one verified operation.
+          </p>
+          <div class="flex flex-wrap gap-2 mt-3">
+            <span class="text-xs px-2 py-1 rounded-full font-semibold" style="background:#D8F3DC;color:#1B4332;">✓ Not: logins or page views</span>
+            <span class="text-xs px-2 py-1 rounded-full font-semibold" style="background:#D8F3DC;color:#1B4332;">✓ Not: edits alone</span>
+          </div>
+        </div>
+
+        <!-- WVO formula -->
+        <div class="rounded-2xl p-6 flex-1" style="background:#1B4332;">
+          <p class="text-xs font-bold uppercase tracking-wider mb-4" style="color:#74C69D;">WVO Formula</p>
+          <div class="flex flex-col gap-3">
+            <div class="flex items-center justify-between">
+              <span class="text-sm" style="color:#D8F3DC;">Properties managed</span>
+              <span class="text-xs font-bold px-3 py-1 rounded-lg" style="background:#40916C;color:#fff;">5 ← Assumption — adjust this</span>
+            </div>
+            <div class="flex items-center justify-between">
+              <span class="text-sm" style="color:#D8F3DC;">Closes per property / month</span>
+              <span class="text-sm font-bold" style="color:#fff;">× 1</span>
+            </div>
+            <div class="flex items-center justify-between">
+              <span class="text-sm" style="color:#D8F3DC;">Operations per month</span>
+              <span class="text-sm font-bold" style="color:#fff;">= 5 / month</span>
+            </div>
+            <div class="flex items-center justify-between">
+              <span class="text-sm" style="color:#D8F3DC;">Weeks per month</span>
+              <span class="text-sm font-bold" style="color:#fff;">÷ 4.3</span>
+            </div>
+            <div style="border-top:1px solid rgba(116,198,157,0.35);padding-top:0.6rem;">
+              <div class="flex items-center justify-between">
+                <span class="text-sm font-bold" style="color:#74C69D;">Weekly Verified Operations</span>
+                <span class="font-black" style="color:#fff;font-size:1.4rem;">~1.2 / week</span>
+              </div>
+            </div>
+          </div>
+          <p class="text-xs italic mt-3" style="color:#74C69D;">Adjust the assumption chip to match your actual portfolio size.</p>
+        </div>
+
+      </div>
+
+      <!-- Right: Value derivation + projected impact -->
+      <div class="flex-1 flex flex-col gap-4">
+
+        <!-- Value per operation -->
+        <div class="rounded-2xl p-6" style="background:#f0fdf4;border:1.5px solid #B7E4C7;">
+          <p class="text-xs font-bold uppercase tracking-wider mb-3" style="color:#1B4332;">Value Per Operation</p>
+          <div class="flex flex-col gap-2">
+            <div class="flex items-center justify-between">
+              <span class="text-xs" style="color:#374151;">Time saved per close</span>
+              <span class="text-xs font-bold px-2 py-1 rounded" style="background:#D8F3DC;color:#1B4332;">2.5 hrs ← Assumption</span>
+            </div>
+            <div class="flex items-center justify-between">
+              <span class="text-xs" style="color:#374151;">Owner's hourly value</span>
+              <span class="text-xs font-bold px-2 py-1 rounded" style="background:#D8F3DC;color:#1B4332;">$50 / hr ← Assumption</span>
+            </div>
+            <div style="border-top:1px solid #B7E4C7;margin:0.25rem 0;"></div>
+            <div class="flex items-center justify-between">
+              <span class="text-xs font-semibold" style="color:#374151;">Value per operation</span>
+              <span class="text-sm font-bold" style="color:#1B4332;">2.5 × $50 = <strong>$125</strong></span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Projected annual impact -->
+        <div class="rounded-2xl p-6 flex flex-col justify-between flex-1"
+             style="background:linear-gradient(135deg,#1B4332 0%,#40916C 100%);">
+          <div>
+            <p class="text-xs font-bold uppercase tracking-wider mb-1" style="color:#74C69D;">Projected Annual Impact</p>
+            <p class="text-xs mb-3" style="color:#B7E4C7;">5 ops/month × $125/op × 12 months</p>
+            <p class="font-black" style="color:#fff;font-size:2.25rem;">
+              $7,500 <span class="text-base font-normal" style="color:#B7E4C7;">/ year</span>
+            </p>
+          </div>
+          <div>
+            <div style="border-top:1px solid rgba(116,198,157,0.3);margin:0.75rem 0;"></div>
+            <p class="text-xs italic" style="color:#74C69D;">
+              Projected impact — based on your inputs. These are projections from your own numbers, not measured results. Adjust the assumption chips above to match your portfolio.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
