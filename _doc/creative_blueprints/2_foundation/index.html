@@ -1,0 +1,60 @@
+<style>
+.mode-landscape .sl-layout { flex-direction: row; }
+.mode-portrait .sl-layout { flex-direction: column; }
+.mode-landscape .sl-narrative { width: 55%; }
+.mode-landscape .sl-visual { width: 45%; display: flex; }
+.mode-portrait .sl-narrative { width: 100%; }
+.mode-portrait .sl-visual { display: none; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-layout flex h-full">
+
+    <!-- Left: Narrative zones -->
+    <div class="sl-narrative flex flex-col p-12 gap-5">
+      <div>
+        <span class="text-xs font-bold tracking-widest uppercase" style="color:#40916C;">Why it exists</span>
+      </div>
+
+      <!-- Problem zone -->
+      <div class="flex-1 rounded-2xl p-7 flex flex-col justify-center" style="background:#1B4332;">
+        <div class="flex items-center gap-2 mb-3">
+          <span style="font-size:1.25rem;">⚠️</span>
+          <span class="text-xs font-bold tracking-widest uppercase" style="color:#74C69D;">The Problem</span>
+        </div>
+        <h2 class="font-bold mb-3 leading-snug" style="color:#fff;font-size:1.35rem;">
+          Property financials are scattered everywhere.
+        </h2>
+        <p class="text-sm leading-relaxed" style="color:#B7E4C7;">
+          Rent lands in one account. Maintenance bills arrive by email. Mortgage, insurance, taxes, and management fees live in different places — or nowhere at all. At month-end, most owners have no quick answer to the only question that matters: <em>did this property make money?</em>
+        </p>
+      </div>
+
+      <!-- Solution zone -->
+      <div class="flex-1 rounded-2xl p-7 flex flex-col justify-center" style="background:#D8F3DC;">
+        <div class="flex items-center gap-2 mb-3">
+          <span style="font-size:1.25rem;">✅</span>
+          <span class="text-xs font-bold tracking-widest uppercase" style="color:#1B4332;">The Solution</span>
+        </div>
+        <h2 class="font-bold mb-3 leading-snug" style="color:#1B4332;font-size:1.35rem;">
+          One place. One monthly view. Clear P&amp;L per property.
+        </h2>
+        <p class="text-sm leading-relaxed" style="color:#2D6A4F;">
+          Log income and expenses for each property each month. Profit or loss is calculated automatically — and surfaced across your entire portfolio in a single dashboard. No accounting background needed.
+        </p>
+      </div>
+    </div>
+
+    <!-- Right: Visual -->
+    <div class="sl-visual p-6 pl-0">
+      <div class="w-full h-full rounded-2xl overflow-hidden relative">
+        <img
+          src="https://api.qb-deck.quantumbyte.ai/common/image-generation?prompt=split%20scene%3A%20left%20side%20messy%20desk%20with%20paper%20bills%20and%20spreadsheets%2C%20right%20side%20clean%20property%20profit%20loss%20dashboard%20on%20laptop%2C%20before%20and%20after%20contrast%2C%20minimal%20modern%20photography"
+          alt="From chaos to clarity"
+          class="w-full h-full object-cover"
+        />
+        <div class="absolute inset-0" style="background:linear-gradient(to bottom,transparent 60%,rgba(27,67,50,0.25));"></div>
+      </div>
+    </div>
+
+  </div>
+</section>
