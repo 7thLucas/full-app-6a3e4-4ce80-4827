@@ -32,7 +32,7 @@ A streamlined expense entry interface with instant unit search: enter the amount
 - **Operator scale by default**: Built for 500+ units; lookup performance and batch entry patterns are first-class concerns
 - **Accountant-friendly separation**: Revenue entry is separate and lightweight; the operator's responsibility is expense allocation, not full bookkeeping
 - **Monthly cadence by design**: The product is built around the natural monthly billing cycle — each month's expenses close into a clear P&L per unit
-- **Unit-level granularity**: Every expense and every P&L result is anchored to a specific unit, not just a building or portfolio aggregate
+- **Unit-level expense allocation, property-level P&L**: Every expense is anchored to a specific unit for precision allocation; profit/loss results are rolled up and reported per property per month — the natural financial reporting unit for a portfolio
 
 ## Operational model
 - Single operator entering expenses as they arrive or in batch at month-end
