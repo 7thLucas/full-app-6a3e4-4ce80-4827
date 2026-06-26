@@ -1,0 +1,1 @@
+I want an app that can gather all my information monthly and provide a loss and profit per month for each property.
