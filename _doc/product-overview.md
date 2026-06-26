@@ -17,7 +17,7 @@ A streamlined expense entry interface with instant unit search: enter the amount
 1. **Fast Unit Search** — Instant unit lookup by name or number; built for 500+ units with no scrolling required
 2. **Expense Allocation Entry** — Enter amount + unit; expense is recorded and allocated immediately
 3. **Expense Category Tagging** — Categorise expenses (maintenance, utilities, insurance, management fees, taxes, etc.) for clarity in the P&L
-4. **Monthly P&L Calculation** — Net profit/loss per unit per month computed automatically from allocated expenses and accountant-provided revenue
+4. **Monthly P&L Calculation** — Net profit/loss per property per month computed automatically from allocated expenses and accountant-provided revenue
 5. **Portfolio Overview Dashboard** — A single view of all units with their monthly P&L status at a glance
 6. **Monthly & Year-to-Date Summaries** — Running totals per unit and across the portfolio for trend visibility and tax preparation
 
