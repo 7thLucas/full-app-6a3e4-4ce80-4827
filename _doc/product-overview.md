@@ -1,7 +1,7 @@
 # Property Expense Allocator & P&L Tracker — Product Overview
 
 ## What the product is
-A monthly expense allocation and profit-and-loss reporting tool for large-scale property management. The operator enters expenses against specific units (amount + unit identifier) using a fast unit search — no scrolling through 500+ units. Revenue is provided by the accountant. The app calculates and displays profit/loss per unit per month, giving the operator a clear monthly financial picture across the entire portfolio without manual calculation.
+A monthly expense allocation and profit-and-loss reporting tool for large-scale property management. The operator enters expenses against specific units (amount + unit identifier) using a fast unit search — no scrolling through 500+ units. Revenue is provided by the accountant. The app calculates and displays profit/loss per property per month, giving the operator a clear monthly financial picture across the entire portfolio without manual calculation.
 
 ## Users
 - **Primary**: Property management operators handling 500+ rental units who need to allocate expenses to specific units quickly and see monthly P&L per unit
