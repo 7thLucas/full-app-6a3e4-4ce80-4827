@@ -1,0 +1,59 @@
+<style>
+.mode-landscape .sl-layout { flex-direction: row; }
+.mode-portrait .sl-layout { flex-direction: column; }
+.mode-landscape .sl-left { width: 55%; }
+.mode-landscape .sl-right { width: 45%; }
+.mode-portrait .sl-left { width: 100%; padding: 2.5rem; flex: 1; }
+.mode-portrait .sl-right { width: 100%; height: 35%; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-layout flex h-full">
+
+    <!-- Left: Content column -->
+    <div class="sl-left flex flex-col justify-between p-12" style="background:#f0fdf4;">
+      <!-- Brand mark -->
+      <div class="flex items-center gap-3">
+        <div class="w-1.5 h-10 rounded-full" style="background:#1B4332;"></div>
+        <span class="text-xs font-bold tracking-widest uppercase" style="color:#1B4332;">Property Finance</span>
+      </div>
+
+      <!-- Headline + tagline -->
+      <div>
+        <h1 class="font-black leading-tight mb-5" style="color:#1B4332;font-size:clamp(2rem,4.5vw,3.25rem);">
+          Know exactly which<br>properties are<br>
+          <span style="color:#40916C;">making you money.</span>
+        </h1>
+        <p class="text-lg leading-relaxed" style="color:#4B5563;max-width:28rem;">
+          Monthly profit &amp; loss clarity across your entire property portfolio — no spreadsheets, no guesswork, no surprises.
+        </p>
+      </div>
+
+      <!-- Attribution -->
+      <div>
+        <data-attribution />
+      </div>
+    </div>
+
+    <!-- Right: Visual anchor -->
+    <div class="sl-right relative overflow-hidden" style="background:#1B4332;">
+      <img
+        src="https://api.qb-deck.quantumbyte.ai/common/image-generation?prompt=modern%20real%20estate%20property%20portfolio%20dashboard%20with%20monthly%20profit%20loss%20charts%2C%20clean%20minimal%20dark%20green%20and%20white%20interface%2C%20professional%20financial%20app%20UI%2C%20property%20cards%20showing%20monthly%20income%20and%20expenses"
+        alt="Property P&L Dashboard"
+        class="w-full h-full object-cover"
+        style="opacity:0.6;"
+      />
+      <div class="absolute inset-0" style="background:linear-gradient(to right,rgba(27,67,50,0.5) 0%,transparent 55%);"></div>
+
+      <!-- Floating stat card -->
+      <div class="absolute bottom-10 left-6 right-6 rounded-2xl p-5"
+           style="background:rgba(255,255,255,0.11);backdrop-filter:blur(14px);border:1px solid rgba(255,255,255,0.2);">
+        <p class="text-xs font-semibold uppercase tracking-wider mb-1" style="color:#74C69D;">Portfolio Overview — October</p>
+        <p class="font-black" style="color:#fff;font-size:1.9rem;">
+          +$8,420 <span class="text-base font-normal" style="color:#B7E4C7;">net profit</span>
+        </p>
+        <p class="text-sm mt-1" style="color:#D8F3DC;">Across 5 properties this month</p>
+      </div>
+    </div>
+
+  </div>
+</section>
